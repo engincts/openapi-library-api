@@ -45,3 +45,18 @@ Bu API, üniversiteye ait bir çevrim içi kütüphane sistemini temsil eder. Ü
   "email": "ali.veli@example.com",
   "isActive": true
 }
+```
+- `400` hatası örneği (örneğin eksik alanla yapılan isteklerde):
+```json
+{
+  "message": "İstek verisi geçersiz"
+}
+```
+
+---
+
+## 📌 Ek Açıklamalar
+
+- API Swagger Editor (https://editor.swagger.io) ortamında hatasız olarak test edilmiştir.
+- OpenAPI 3.0.3 standardına tamamen uygundur.
+- `UUID`, `email`, `date`, `enum` gibi `format` ve `type` tanımlamaları doğru şekilde yapılmıştır.
